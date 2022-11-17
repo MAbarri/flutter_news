@@ -79,7 +79,13 @@ function readSingleArticle(url){
     let fullObj = _.find(serverData, (item)=>{
         return item.url == url;
     })
-    window.location.href = fullObj.url;;
+
+
+    // Put the object into storage
+    localStorage.setItem('selectedArticleURL', JSON.stringify(fullObj.url));
+
+
+    window.location.href = "./single_article";
 }
 
 function loadMore(page){
