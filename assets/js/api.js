@@ -1,4 +1,4 @@
-const API_KEY = "dbe25773eee642da8aa0b07903b56c92";
+const API_KEY = "874293edb5124927bd23b373aed922f3";
 const API_ENDPOINT = "https://newsapi.org/v2/top-headlines?country=ma&category=sports&apiKey=" + API_KEY;
 
 const CORS_PROXY = "https://api.codetabs.com/v1/proxy?quest=";
