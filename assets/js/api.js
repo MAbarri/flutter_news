@@ -58,7 +58,7 @@ function appendArticle(article){
     let articleContent = 
         '<div class="blog-card">' +
         '<div class="blog-card-banner" >' +
-        '        <img src="' + (article.heroURL || "./assets/images/default-article.png") + '" alt="' + article.title+'"' +
+        '        <img style="max-height: 240px;" src="' + (article.heroURL || "./assets/images/default-article.png") + '" alt="' + article.title+'"' +
         '          width="250" class="blog-banner-img">' +
         '      </div>' +
         '      <div class="blog-content-wrapper">' +
