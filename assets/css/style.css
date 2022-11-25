@@ -410,7 +410,11 @@ header .btn-group {
   box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.05);
   transition: 0.25s ease;
 }
-
+.blog-card {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  gap: 20px;
+}
 .blog-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.1);
@@ -419,6 +423,11 @@ header .btn-group {
 .blog-card-banner {  }
 .blog-banner-img {
   width: 100%;
+}
+.blog-banner-img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .blog-content-wrapper { padding: 10px 5px; }
 
@@ -583,7 +592,7 @@ footer .wrapper { text-align: center; }
 
   .blog-card {
     display: grid;
-    grid-template-columns: 3fr 4fr;
+    grid-template-columns: 1fr 4fr;
     gap: 20px;
   }
 
