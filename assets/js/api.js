@@ -65,6 +65,7 @@ function appendArticle(article){
 
         '        <button class="blog-topic text-tiny">' + article.category+'</button>' +
 
+        '<small style="color: #6372a2" >' + (new Date(article.articleDate)).toLocaleDateString() + '</small>' +
         '        <h3>' +
         '          <a href="' + article.sourceURL +'" class="h3">' + article.title +
         '          </a>' +
